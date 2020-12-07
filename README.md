@@ -1,7 +1,5 @@
 # Hudymi Homebrew Tap
 
-## Usage
-
 To use the Homebrew tap, register it:
 
 ```
