@@ -1,10 +1,10 @@
-# Source: https://raw.githubusercontent.com/Homebrew/homebrew-core/4af7a5a8ad392152bfb74c94176837a36f9a2218/Formula/teleport.rb
+# Source: https://raw.githubusercontent.com/Homebrew/homebrew-core/e40dbc40e9d44258342aff01a7adf8ad9f5892dd/Formula/teleport.rb
 
 class Teleport < Formula
   desc "Modern SSH server for teams managing distributed infrastructure"
   homepage "https://gravitational.com/teleport"
-  url "https://github.com/gravitational/teleport/archive/v5.0.0.tar.gz"
-  sha256 "928dafa3e87ebc0999c2e5e52ef8add6bac63bc9a3401b9b4d310e37be6d0392"
+  url "https://github.com/gravitational/teleport/archive/v4.4.1.tar.gz"
+  sha256 "d40eb84a780fcbda610ce57d0795d5fdde12041261f4e832b2791f40c7ed6590"
   license "Apache-2.0"
   head "https://github.com/gravitational/teleport.git"
 
@@ -15,9 +15,9 @@ class Teleport < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "a32f1c75b5da4a7b1ef42569382a106b91fe6ba4045386e7eca57f2d60e84c79" => :big_sur
-    sha256 "8773bf6085322dc21e0d4becd4484b82eb5f1468b6ad84f75db2d54579d9e402" => :catalina
-    sha256 "a6cc6087014f87f3dbd73cd05e0119bef230c8743b125d7fcd070d60a6fc0704" => :mojave
+    sha256 "b6d2d2b64ec46a929a9c0bf98efc75ff9a65b7e84c34a2c04002147d32bc958e" => :catalina
+    sha256 "1a5b5e35d34031d6b35ca7bf315310ad183b4a1f8380a4f45aede78701bddc2d" => :mojave
+    sha256 "46904ecad78c332fede2a40f7b96034c15cde72ffd06919f39ddbc2657995364" => :high_sierra
   end
 
   depends_on "go" => :build
