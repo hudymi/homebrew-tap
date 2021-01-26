@@ -2,7 +2,7 @@ class HelmAT2 < Formula
   desc "The Kubernetes package manager"
   homepage "https://helm.sh/"
   url "https://github.com/helm/helm.git",
-      :tag      => "v2.15.3",
+      :tag      => "v2.15.2",
       :revision => "8dce272473e5f2a7bf58ce79bb5c3691db54c96b"
 
   keg_only :versioned_formula
